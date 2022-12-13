@@ -2,10 +2,10 @@ import java.util.Scanner;
 
 public class Task001_2 {
     public static void main(String[] args) {
-        System.out.print("Введите число: ");
+        System.out.print("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ: ");
         Scanner in = new Scanner(System.in);
         int number = in.nextInt();
-        System.out.print("Ряд простых чисел: ");
+        System.out.print("Р СЏРґ РїСЂРѕСЃС‚С‹С… С‡РёСЃРµР»: ");
         int count = 0;
         for (int i = 1; i <= number; i++) {
             for (int j = 1; j <= number; j++) {
