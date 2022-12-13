@@ -4,24 +4,24 @@ public class Task001_3 {
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
-        System.out.print("Введите первое число: ");
+        System.out.print("Р’РІРµРґРёС‚Рµ РїРµСЂРІРѕРµ С‡РёСЃР»Рѕ: ");
         int a = in.nextInt();
-        System.out.print("Введите второе число: ");
+        System.out.print("Р’РІРµРґРёС‚Рµ РІС‚РѕСЂРѕРµ С‡РёСЃР»Рѕ: ");
         int b = in.nextInt();
-        System.out.print("Введите выражение (+, -, *, /): ");
+        System.out.print("Р’РІРµРґРёС‚Рµ РІС‹СЂР°Р¶РµРЅРёРµ (+, -, *, /): ");
         String expression = in.next();
         switch (expression) {
             case "+":
-                System.out.printf("Сумма: %s", Sum(a, b));
+                System.out.printf("РЎСѓРјРјР°: %s", Sum(a, b));
                 break;
             case "-":
-                System.out.printf("Разность: %s", Sub(a, b));
+                System.out.printf("Р Р°Р·РЅРѕСЃС‚СЊ: %s", Sub(a, b));
                 break;
             case "*":
-                System.out.printf("Произведение: %s", Mult(a, b));
+                System.out.printf("РџСЂРѕРёР·РІРµРґРµРЅРёРµ: %s", Mult(a, b));
                 break;
             case "/":
-                System.out.printf("Частное: %s", Div(a, b));
+                System.out.printf("Р§Р°СЃС‚РЅРѕРµ: %s", Div(a, b));
                 break;
         }
     }
