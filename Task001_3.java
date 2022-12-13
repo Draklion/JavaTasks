@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Task001_3 {
     public static void main(String[] args) {
+
         Scanner in = new Scanner(System.in);
         System.out.print("¬ведите первое число: ");
         int a = in.nextInt();
